@@ -2,7 +2,7 @@ const postcss = require('postcss');
 const  properties = require('./properties');
 const values = require('./values');
 
-module.exports = postcss.plugin('postcss-brazilian-portuguese-stylesheet', (opts) =>{
+module.exports = postcss.plugin('postcss-mussumzis-stylesheet', (opts) =>{
   opts = opts || {};
 
   return (css) => {
@@ -21,8 +21,8 @@ module.exports = postcss.plugin('postcss-brazilian-portuguese-stylesheet', (opts
       });
 
       // Important
-      if (decl.value.indexOf('!importante') >= 0) {
-        decl.value = decl.value.replace(/\s*!importante\s*/, '');
+      if (decl.value.indexOf('!importantezis') >= 0) {
+        decl.value = decl.value.replace(/\s*!importantezis\s*/, '');
         decl.important = true;
       }
     });
