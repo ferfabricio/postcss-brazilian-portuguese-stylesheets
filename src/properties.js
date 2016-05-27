@@ -1,7 +1,7 @@
 module.exports = {
   'background': 'fundis',
   'background-color': 'corFundis',
-  'background-image': 'imagemFundis',
+  'background-image': 'chapaFundis',
   'background-repeat': 'repetirFundis',
   'background-attachment': 'anexarFundis',
   'background-position': 'posicaoFundis',
