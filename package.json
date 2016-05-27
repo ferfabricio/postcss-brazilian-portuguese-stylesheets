@@ -1,6 +1,6 @@
 {
-  "name": "postcss-brazilian-portuguese-stylesheets",
-  "version": "0.1.0",
+  "name": "postcss-mussumzis-stylesheets",
+  "version": "0.0.1",
   "description": "PostCSS plugin for writing CSS in Brazilian Portuguese",
   "main": "src/index.js",
   "scripts": {
@@ -10,20 +10,17 @@
     "postcss",
     "css",
     "postcss-plugin",
-    "portuguese",
-    "brazilian"
+    "mussumzis"
   ],
-  "author": "Welkson Ramos <welksonr@hotmail.com>",
+  "author": "Fernando Fabricio dos Santos <ferfabricio@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/welksonramos/postcss-brazilian-portuguese-stylesheets.git"
+    "url": "git+https://github.com/ferfabricio/postcss-mussumzis-stylesheets.git"
   },
-  "bugs": {
-    "url": "https://github.com/welksonramos/postcss-brazilian-portuguese-stylesheets/issues"
-  },
-  "homepage": "https://github.com/welksonramos/postcss-brazilian-portuguese-stylesheets#readme",
+  "homepage": "https://github.com/ferfabricio/postcss-mussumzis-stylesheets#readme",
   "dependencies": {
-    "postcss": "^5.0.21"
+    "postcss": "^5.0.21",
+    "postcss-brazilian-portuguese-stylesheets": "^0.1.0"
   }
 }
