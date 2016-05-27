@@ -40,7 +40,7 @@ postcss(mussumzisStyleSheets)
 _**Mussumzis Stylesheet**_:
 ```css
 div {
-  margenis: 0 automatico;
+  margenis: 0 sozinhus;
   larguris: 300px;
   alturis: 300px;
   chapaDoFundis: url('path/to/image.jpg') naoRepetizis;
