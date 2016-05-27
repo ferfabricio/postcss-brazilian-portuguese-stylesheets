@@ -1,32 +1,35 @@
-# <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/125px-Flag_of_Brazil.svg.png" height="32px" width="auto" /> PostCSS Brazilian Portuguese Stylesheets
-> [PostCSS](http://postcss.org/) plugin for writing CSS in Portuguese
+# <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/c/c3/Mussum_%28Ant%C3%B4nio_Carlos_Bernardes_Gomes%29.jpg/250px-Mussum_%28Ant%C3%B4nio_Carlos_Bernardes_Gomes%29.jpg" height="32px" width="auto" /> PostCSS Mussumzis Stylesheets
+> [PostCSS](http://postcss.org/) plugin para escrever CSS em Mussumzis
 
-Write your CSS in portuguese! 
+Se escreveris seu CSS era problemis, escreve no estilo do Mussumsis, cacildiss!
 
-## Installation
+## Instalação
 ```bash
-$ npm install postcss-brazilian-portuguese-stylesheet
+$ npm install postcss-mussumzis-stylesheet
 ```
 
-## Usage
+## O projeto
+É um fork do projeto [CSS em Português](https://github.com/welksonramos/postcss-brazilian-portuguese-stylesheets).
 
-Add [PostCSS](https://github.com/postcss/postcss) in your project:
+## Utilização
+
+Adicione [PostCSS](https://github.com/postcss/postcss) em seu projeto:
 
 ```js
 $ npm install postcss --save-dev
 ``` 
 
-In your script:
+No seu script:
 
 ```js
 const fs = require('fs');
 const postcss = require('postcss');
-const brazilianStyleSheets = require('postcss-brazilian-portuguese-stylesheet')
+const mussumzisStyleSheets = require('postcss-mussumzis-stylesheet')
 
 // css to be processed
 var css = fs.readFileSync('./path/to/file.css', 'utf8');
 
-postcss(brazilianStyleSheets)
+postcss(mussumzisStyleSheets)
 .process(css)
 .then(result =>{
   fs.writeFileSync('./path/to/output.css', result.css);
@@ -34,13 +37,13 @@ postcss(brazilianStyleSheets)
 ```
 ## Example
 
-_**Brazilian Stylesheet**_:
+_**Mussumzis Stylesheet**_:
 ```css
 div {
-  margem: 0 automatico;
-  largura: 300px;
-  altura: 300px;
-  imagemFundo: url('path/to/image.jpg') naoRepetir;
+  margenis: 0 automatico;
+  larguris: 300px;
+  alturis: 300px;
+  chapaDoFundis: url('path/to/image.jpg') naoRepetizis;
 }
 ```
 _**CSS Output**_:
@@ -52,8 +55,6 @@ div {
   background-image: url('path/to/image.jpg') no-repeat;
 }
 ```
-## Changelog
-See [CHANGELOG](CHANGELOG.md)
 
 ## License
 
