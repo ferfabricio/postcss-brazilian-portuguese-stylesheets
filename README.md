@@ -43,7 +43,7 @@ div {
   margenis: 0 sozinhus;
   larguris: 300px;
   alturis: 300px;
-  chapaDoFundis: url('path/to/image.jpg') naoRepetizis;
+  chapa-do-fundis: url('path/to/image.jpg') nao-repetizis;
 }
 ```
 _**CSS Output**_:
